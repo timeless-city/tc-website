@@ -67,9 +67,14 @@ export default function Impressum() {
               <div>
                 <h2 className="text-2xl font-semibold text-white">Verantwortlich für den Inhalt</h2>
                 <p className="text-gray-300 mt-2">
-                  <strong>Name:</strong> Lukas Geissbauer <br />
-                  <strong>Email:</strong> <Link href="mailto:timelesscity@ludaro.de" className="text-blue-400 hover:text-blue-300">timelesscity@ludaro.de</Link> <br />
-                  <strong>Github:</strong> <Link href="https://github.com/Ludaro1024/tc-website" className="text-blue-400 hover:text-blue-300">https://github.com/Ludaro1024/tc-website</Link>
+                  <strong>Name:</strong> Dario Butschko <br />
+                  <strong>Email:</strong> <Link href="mailto:verwaltung.timeless@gmail.com" className="text-blue-400 hover:text-blue-300">verwaltung.timrless@gmail.com</Link> <br />
+                  <strong>Adresse:/strong> c/o flexdienst – #11486 </br>
+                  Kurt-Schumacher-Straße 76 </br>
+                  67663 Kaiserslautern </br>
+                  Deutschland</br>
+                  <strong>Github:</strong> <Link href="https://github.com/Li0nbl4ze/tc-website" className="text-blue-400 hover:text-blue-300">https://github.com/Li0nbl4ze/tc-website</Link>
+                  <strong>Telefon:094146186158</strong>
                 </p>
               </div>
 
@@ -77,6 +82,19 @@ export default function Impressum() {
                 <h2 className="text-2xl font-semibold text-white">Haftung für Inhalte</h2>
                 <p className="text-gray-300 mt-2">
                   Die Inhalte dieser Seite wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.
+                </p>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-semibold text-white">Jugendschutz</h2>
+                <p className="text-gray-300 mt2">
+                  Unser FiveM-Server richtet sich ausschließlich an volljährige Nutzerinnen und Nutzer ab 18 Jahren.
+                  Der Zugang zu unserem Server ist daher gemäß § 10 Abs. 1 des Jugendmedienschutz-Staatsvertrags (JMStV) nur Personen gestattet, die das 18. Lebensjahr vollendet haben.
+
+                  Zur Einhaltung der gesetzlichen Jugendschutzbestimmungen wird der Zugang regelmäßig überprüft. Mit dem Beitritt bzw. der Nutzung unseres Servers bestätigt jede Person, volljährig zu sein.
+                  Wir behalten uns vor, bei Zweifeln an der Altersangabe eine Altersverifikation zu verlangen oder den Zugang zu verweigern.
+
+                  Inhalte auf unserem Server können Szenen enthalten, die für Kinder und Jugendliche nicht geeignet sind (z. B. Gewaltdarstellungen, Drogenkonsum oder andere nicht jugendfreie Inhalte), weshalb ein verantwortungsvoller Umgang im Sinne des Jugendschutzes für uns oberste Priorität hat.
                 </p>
               </div>
 
