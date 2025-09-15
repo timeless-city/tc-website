@@ -69,10 +69,11 @@ export default function Impressum() {
                 <p className="text-gray-300 mt-2">
                   <strong>Name:</strong> Dario Butschko <br />
                   <strong>Email:</strong> <Link href="mailto:verwaltung.timeless@gmail.com" className="text-blue-400 hover:text-blue-300">verwaltung.timeless@gmail.com</Link> <br />
-                  <strong>Adresse:/strong> c/o flexdienst – #11486 </br>
-                                            Kurt-Schumacher-Straße 76 </br>
-                                            67663 Kaiserslautern </br>
-                                            Deutschland</br>
+                  <strong>Adresse>:</strong> 
+                  c/o flexdienst – #11486 </br>
+                  Kurt-Schumacher-Straße 76 </br>
+                  67663 Kaiserslautern </br>
+                  Deutschland</br>
                   <strong>Github:</strong> <Link href="https://github.com/Li0nbl4ze/tc-website" className="text-blue-400 hover:text-blue-300">https://github.com/Li0nbl4ze/tc-website</Link>
                   <strong>Telefon:094146186158</strong>
                 </p>
