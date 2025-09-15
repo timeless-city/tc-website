@@ -54,7 +54,7 @@ export default function Impressum() {
                   <h1 className="text-4xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
                     Impressum
                   </h1>
-                  <p className="text-gray-400 mt-1">Stand: 22. März 2025</p>
+                  <p className="text-gray-400 mt-1">Stand: 16. September 2025</p>
                 </div>
               </div>
               <p className="text-gray-300">
