@@ -71,8 +71,8 @@ export default function Impressum() {
                   <strong>Email:</strong> <Link href="mailto:verwaltung.timeless@gmail.com" className="text-blue-400 hover:text-blue-300">verwaltung.timeless@gmail.com</Link> <br />
                   <strong>Adresse:</strong> <br />
                     c/o flexdienst – #11486 <br />
-                    Kurt-Schumacher-Straße 76<br />
-                    67663 Kaiserslautern<br /> 
+                    Kurt-Schumacher-Straße 76 <br />
+                    67663 Kaiserslautern <br /> 
                     Deutschland<br />
                   <strong>Telefon:</strong> 094146186158
                 </p>
