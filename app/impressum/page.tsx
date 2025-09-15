@@ -74,8 +74,7 @@ export default function Impressum() {
                     Kurt-Schumacher-Straße 76<br />
                     67663 Kaiserslautern<br /> 
                     Deutschland<br />
-                  <strong>Github:</strong> <Link href="https://github.com/Li0nbl4ze/tc-website" className="text-blue-400 hover:text-blue-300">https://github.com/Li0nbl4ze/tc-website</Link> <br />
-                  <strong>Telefon:094146186158</strong>
+                  <strong>Telefon:</strong> 094146186158
                 </p>
               </div>
 
