@@ -99,6 +99,34 @@ export default function Impressum() {
                 </p>
               </div>
 
+            <div>
+              <h2 className="text-2xl font-semibold text-white">Datenschutzerklärung gemäß DSGVO</h2>
+              <p className="text-gray-300 mt2">
+                Datenschutzerklärung (gemäß DSGVO)
+
+              Der Schutz Ihrer personenbezogenen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TMG). In dieser Datenschutzerklärung informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unseres FiveM-Servers.
+
+              1. Verantwortlicher
+              Verantwortlich für die Datenverarbeitung auf diesem Server ist:
+              Siehe Oben.
+
+              2. Erhebung und Speicherung personenbezogener Daten
+              Beim Betreten unseres Servers werden technisch notwendige Daten wie Ihre IP-Adresse, der Steam- oder Rockstar-Accountname, sowie Datum und Uhrzeit der Verbindung automatisch erfasst. Diese Daten dienen der Sicherheit, Missbrauchsprävention und dem Serverbetrieb. Eine weitergehende Verarbeitung oder Weitergabe an Dritte erfolgt nicht, sofern keine gesetzliche Pflicht besteht.
+
+              3. Zweck der Datenverarbeitung
+              Die Datenverarbeitung erfolgt ausschließlich zum Betrieb des Servers, zur Fehleranalyse, zur Sicherstellung der Serverstabilität sowie zur Einhaltung unserer Serverregeln.
+              4. Speicherdauer
+              Die gespeicherten Verbindungsdaten werden regelmäßig gelöscht, sobald sie für den Zweck ihrer Erhebung nicht mehr erforderlich sind. In der Regel geschieht dies nach spätestens 30 Tagen, sofern keine sicherheitsrelevanten Gründe oder Ermittlungen vorliegen.
+
+              5. Ihre Rechte
+              Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer personenbezogenen Daten. Darüber hinaus steht Ihnen ein Widerspruchsrecht gegen die Verarbeitung sowie das Recht auf Datenübertragbarkeit zu.
+              Wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt, haben Sie das Recht, sich bei der zuständigen Aufsichtsbehörde zu beschweren.
+
+              6. Kontaktaufnahme
+              Für datenschutzrechtliche Anfragen wenden Sie sich bitte per E-Mail an: Siehe Oben.
+              </p>
+            </div>
+
               <div>
                 <h2 className="text-2xl font-semibold text-white">Externe Links</h2>
                 <p className="text-gray-300 mt-2">
