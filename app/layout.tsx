@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'TimelessCity - FiveM Roleplay Server!',
+  title: 'TimelessCity - FiveM Roleplay Server',
   description: 'Der ultimative FiveM-Roleplay-Server für einzigartige Erlebnisse',
   icons: {
     icon: '/favicon.ico',
