@@ -1352,7 +1352,7 @@ export default function Home() {
             <h4 className="text-white/90 font-medium mb-4">Kontakt</h4>
             <div className="space-y-2">
               <div className="text-gray-400 text-sm">
-                Support: <Link href="mailto:support@timeless.city" className="hover:text-white">support@timeless.city</Link>
+                Support: <Link href="mailto:verwaltung.timeless@gmail.com" className="hover:text-white">verwaltung.timeless@gmail.com</Link>
               </div>
               <SocialLinks />
             </div>
