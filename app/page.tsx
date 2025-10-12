@@ -34,9 +34,6 @@ export default function Home() {
               <span className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
                 TimelessCity
               </span>
-              <span className="px-2 py-1 text-xs bg-white/10 rounded-full border border-white/10">
-                BETA
-              </span>
             </div>
           </Link>
           
@@ -340,7 +337,6 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-sm">
             <div>© 2025 TimelessCity. Alle Rechte vorbehalten.</div>
             <div className="flex gap-4">
-              <Link href="/impressum" className="hover:text-white">Impressum</Link>
             </div>
           </div>
         </div>
