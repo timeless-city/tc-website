@@ -1158,6 +1158,7 @@ export default function Home() {
                     </div> 
                   </div>
                 </div>
+               </div>
                   
                   {/* Discord */}
                   <div className="p-8 space-y-10">
@@ -1197,7 +1198,7 @@ export default function Home() {
                 </div>
               </div> 
             </div>  
-          </div>
+          
 
                  {/* Sonstiges  */}
                  <div className="p-8 space-y-10">
