@@ -438,7 +438,9 @@ export default function Home() {
                 <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                  <h3 className="text-xl font-semibold mb-3">§3.1 Geiselnahmen und Raubüberfälle</h3>
                   <p className="text-gray-300">
-                  Geiselnahmen und Raubüberfälle sind dafür da, um für ein spannendes Rollenspiel zu sorgen. Good- und Bad Fraktionen müssen zusammenarbeiten. Unrealistische Forderungen wie "Sonst stirbt die Geisel" gelten als "Power-RP". Allgemein muss auf realistische und erfüllbare Forderungen geachtet werden. Beide Parteien müssen  sich einigen können. Versucht eine Partei, diesem aktiv entgegenzuwirken, gilt dies als RP-Verweigerung. Raubüberfälle dürfen nicht in der Absicht gestartet werden, eine Schießerei zu provozieren. Vereinbarungen, welche während einer Verhandlung getroffen werden, sind einzuhalten. Nach 10 Sekunden schon zu schießen oder zu pitten, ist Fail-RP.
+                    <ul className="space-y mt-2">
+                       Geiselnahmen und Raubüberfälle sind dafür da, um für ein spannendes Rollenspiel zu sorgen. Good- und Bad Fraktionen müssen zusammenarbeiten. Unrealistische Forderungen wie "Sonst stirbt die Geisel" gelten als "Power-RP". Allgemein muss auf realistische und erfüllbare Forderungen geachtet werden. Beide Parteien müssen  sich einigen können. Versucht eine Partei, diesem aktiv entgegenzuwirken, gilt dies als RP-Verweigerung. Raubüberfälle dürfen nicht in der Absicht gestartet werden, eine Schießerei zu provozieren. Vereinbarungen, welche während einer Verhandlung getroffen werden, sind einzuhalten. Nach 10 Sekunden schon zu schießen oder zu pitten, ist Fail-RP.
+                    </ul>
                   </p>
                 </div>
 
@@ -449,8 +451,8 @@ export default function Home() {
                           Staatsbeamte dürfen für Überfälle als Geiseln genommen werden, wenn es die Situation hergibt. Verhandlungsführer dürfen ebenfalls als Geisel genommen werden, jedoch ist eine anschließende Klärung im Support ausgeschlossen.
                         </ul>
                       </p>
-                 
-                      </div>      
+                    </div>      
+
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§3.3 Freilassung von Geiseln</h3>
                       <p className="text-gray-300">
@@ -458,8 +460,8 @@ export default function Home() {
                           Wenn eine Person als Geisel genommen wird, muss sie spätestens nach 20 Min. freigelassen werden, sofern innerhalb dieser Zeit kein Raub gestartet wird (Sollte die Zeit überschritten werden, kann dies bei Bedarf dem Support geklärt werden).
                         </ul>
                       </p>
-                 
-                      </div>      
+                    </div>      
+                  
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§3.4 Fake-Geiseln</h3>
                       <p className="text-gray-300">
@@ -476,8 +478,8 @@ export default function Home() {
                           Geiselnahmen vor dem Staatsgefängnis sind ohne Ausnahme verboten. Befreiungen von Gefangenen können anderweitig und kreativ gelöst werden.
                         </ul>
                       </p>
-                  
-                      </div>      
+                  </div>    
+                    
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§3.6 Medics, Government und das DOT</h3>
                       <p className="text-gray-300">
