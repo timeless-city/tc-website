@@ -271,6 +271,7 @@ export default function Home() {
             </div>
 
                   {/* Roleplay Regeln */}
+              <div className="p-8 space-y-10">
               <div className="space-y-6">
                 <h2 className="text-3xl font-semibold flex items-center gap-3">
                   <span className="bg-white/10 px-3 py-1 rounded-lg">2</span>
@@ -428,8 +429,10 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+              </div>
 
                 {/* Geiselnahmen */}
+                <div className="p-8 space-y-10">
                 <div className="space-y-6">
                   <h2 className="text-3xl font-semibold flex items-center gap-3">
                     <span className="bg-white/10 px-3 py-1 rounded-lg">3</span>
@@ -491,9 +494,11 @@ export default function Home() {
                       </p>
                   </div> 
                 </div> 
-              </div>    
+              </div> 
+            </div>   
 
                   {/* Kommunikation */}
+                <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">4</span>
@@ -539,8 +544,10 @@ export default function Home() {
                   </div> 
                 </div>  
               </div>   
+            </div>
 
                   {/* Definitionen */}
+                  <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">5</span>
@@ -666,9 +673,11 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+            </div>
                      
 
                   {/* Support */}
+                  <div className="p-8 space-y-10">
 <div className="space-y-6">
   <h2 className="text-3xl font-semibold flex items-center gap-3">
     <span className="bg-white/10 px-3 py-1 rounded-lg">6</span>
@@ -760,9 +769,11 @@ export default function Home() {
                   </div> 
                 </div>
               </div>
+            </div>
   
 
                   {/* Safezonen und Gefahrenzonen */}
+                  <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">7</span>
@@ -811,8 +822,10 @@ export default function Home() {
                   </div>
                 </div> 
               </div>   
+            </div>
 
                   {/* New Life Regelung */}
+                  <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">8</span>
@@ -848,8 +861,10 @@ export default function Home() {
                   </div> 
                 </div>
               </div>  
+            </div>
 
                   {/* Medic & Police-RP  */}
+                  <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">9</span>
@@ -903,8 +918,10 @@ export default function Home() {
                   </div>
                 </div>  
               </div>
+            </div>
 
                   {/* Waffengewalt */}
+                  <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">10</span>
@@ -967,8 +984,10 @@ export default function Home() {
                   </div>
                 </div> 
               </div>  
+            </div>
 
                  {/* Gruppierungen   */}
+                 <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">11</span>
@@ -1022,8 +1041,10 @@ export default function Home() {
                   </div>
                 </div>  
               </div> 
+            </div>
 
                   {/* Räube|Überfälle */}
+                  <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">12</span>
@@ -1068,8 +1089,10 @@ export default function Home() {
                   </div>
                 </div> 
               </div>  
+            </div>
 
                   {/* Streaming */}
+                  <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">13</span>
@@ -1105,8 +1128,10 @@ export default function Home() {
                   </div> 
                 </div>  
               </div>
+            </div>
 
                   {/* Blacklist Wörter  */}
+                  <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">14</span>
@@ -1132,8 +1157,10 @@ export default function Home() {
                       </p>
                     </div> 
                   </div>
+                </div>
                   
                   {/* Discord */}
+                  <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">15</span>
@@ -1167,12 +1194,13 @@ export default function Home() {
                         </ul>
                       </p>
                   </div>
-
-                </div> 
-              </div>  
-            </div>
+                </div>
+              </div> 
+            </div>  
+          </div>
 
                  {/* Sonstiges  */}
+                 <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">16</span>
@@ -1244,6 +1272,7 @@ export default function Home() {
                   </div>
                 </div>  
               </div> 
+            </div>
 
 
                  {/* Fraktionsregelwerk  */}
@@ -1313,6 +1342,7 @@ export default function Home() {
             </div>
 
                  {/* Legale Fraktionen */}
+                 <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">2</span>
@@ -1348,8 +1378,10 @@ export default function Home() {
                   </div> 
                 </div>  
               </div>
+            </div>
 
                  {/* Illegale Fraktionen */}
+                 <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">3</span>
@@ -1457,6 +1489,7 @@ export default function Home() {
                   </div> 
                 </div>  
               </div>
+            </div>
 
            {/* Footer */}
           <footer className="border-t border-white/10 bg-black/80 mt-24">
