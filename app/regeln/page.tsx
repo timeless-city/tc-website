@@ -1419,8 +1419,9 @@ export default function Home() {
                           Fraktionen, welche beim Beitritt einer Fraktion einen Blood-in erteilen, dürfen ebenso ein Blood-out aussprechen und vollziehen. Dies muss der betroffenen Person vorher mitgeteilt werden und ist erst mit dem Ausbluten des Spielers wirksam.Nach einem Blood-out vergisst die Person alles, was während ihrer Zugehörigkeit passiert ist.
                         </ul>
                       </p>
-                  </div>   
-
+                  </div> 
+                </div>  
+           {/* Footer */}
           <footer className="border-t border-white/10 bg-black/80 mt-24">
         <div className="container mx-auto px-4 py-10 grid md:grid-cols-4 gap-10">
           <div>
@@ -1482,6 +1483,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-    </div>
+   </div>
   );
 }
