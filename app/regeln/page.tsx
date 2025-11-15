@@ -270,13 +270,13 @@ export default function Home() {
               </div>
             </div>
                   {/* Roleplay Regeln */}
-                                <div className="space-y-6">
+              <div className="space-y-6">
                 <h2 className="text-3xl font-semibold flex items-center gap-3">
                   <span className="bg-white/10 px-3 py-1 rounded-lg">2</span>
                   Roleplay Regeln
                 </h2>
+<div className="grid md:grid-cols-2 gap-6">
 
-                <div className="grid md:grid-cols-2 gap-6">
                   {/* §2.1 */}
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§2.1 Leben schützen</h3>
@@ -434,7 +434,8 @@ export default function Home() {
                     <span className="bg-white/10 px-3 py-1 rounded-lg">3</span>
                       Geiselnahmen
                   </h2>
-
+                    <div className="grid md:grid-cols-2 gap-6">
+                  
                 <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                  <h3 className="text-xl font-semibold mb-3">§3.1 Geiselnahmen und Raubüberfälle</h3>
                   <p className="text-gray-300">
@@ -488,7 +489,8 @@ export default function Home() {
                         </ul>
                       </p>
                   </div> 
-                </div>     
+                </div> 
+              </div>    
 
                   {/* Kommunikation */}
                   <div className="space-y-6">
@@ -496,6 +498,7 @@ export default function Home() {
                       <span className="bg-white/10 px-3 py-1 rounded-lg">4</span>
                       Kommnunikation
                     </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
 
                  </div>      
                    <div className="p-6 bg-white/5 rounded-xl border border-white/10">
@@ -532,7 +535,8 @@ export default function Home() {
                           Um allen ein gutes und angenehmes Roleplay Ergebnis bieten zu können, ist ein vernünftiges Mikrofon mit anständiger Qualität zu nutzen.
                         </ul>
                       </p>
-                  </div>      
+                  </div> 
+                </div>     
 
                   {/* Definitionen */}
                   <div className="space-y-6">
@@ -540,6 +544,7 @@ export default function Home() {
                       <span className="bg-white/10 px-3 py-1 rounded-lg">5</span>
                       Definitionen
                     </h2>
+                  <div className="grid md:grid-cols-2 gap-6">
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§5.1 VDM (Vehicle Deathmatch)</h3>
@@ -657,7 +662,9 @@ export default function Home() {
                         </ul>
                       </p>
                   </div>
-                </div>         
+                </div>
+              </div>
+                     
 
                   {/* Support */}
 <div className="space-y-6">
@@ -665,8 +672,8 @@ export default function Home() {
     <span className="bg-white/10 px-3 py-1 rounded-lg">6</span>
     Support
   </h2>
+<div className="grid md:grid-cols-2 gap-6">
 
-  <div className="grid md:grid-cols-2 gap-6">
     {/* §6.1 */}
     <div className="p-6 bg-white/5 rounded-xl border border-white/10">
       <h3 className="text-xl font-semibold mb-3">§6.1 Meldungen</h3>
@@ -759,6 +766,7 @@ export default function Home() {
                       <span className="bg-white/10 px-3 py-1 rounded-lg">7</span>
                       Safezonen und Gefahrenzonen
                     </h2>
+                  <div className="grid md:grid-cols-2 gap-6">
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§7.1 Safezones</h3>
@@ -799,7 +807,8 @@ export default function Home() {
                         </ul>
                       </p>
                   </div>
-                </div>    
+                </div> 
+              </div>   
 
                   {/* New Life Regelung */}
                   <div className="space-y-6">
@@ -807,6 +816,7 @@ export default function Home() {
                       <span className="bg-white/10 px-3 py-1 rounded-lg">8</span>
                       New Life
                     </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
                   
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§8.1 New Life Regel</h3>
@@ -834,14 +844,16 @@ export default function Home() {
                         </ul>
                       </p>
                   </div> 
-                </div>  
+                </div>
+              </div>  
 
                   {/* Medic & Police-RP  */}
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">9</span>
                       Medic & Police-RP
-                    </h2>  
+                    </h2> 
+                  <div className="grid md:grid-cols-2 gap-6"> 
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§9.1 Medic-RP</h3>
@@ -888,6 +900,7 @@ export default function Home() {
                       </p>
                   </div>
                 </div>  
+              </div>
 
                   {/* Waffengewalt */}
                   <div className="space-y-6">
@@ -895,6 +908,7 @@ export default function Home() {
                       <span className="bg-white/10 px-3 py-1 rounded-lg">10</span>
                       Waffengewalt
                     </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
   
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§10.1 Waffengewalt</h3>
@@ -949,7 +963,8 @@ export default function Home() {
                         </ul>
                       </p>
                   </div>
-                </div>   
+                </div> 
+              </div>  
 
                  {/* Gruppierungen   */}
                   <div className="space-y-6">
@@ -957,6 +972,7 @@ export default function Home() {
                       <span className="bg-white/10 px-3 py-1 rounded-lg">11</span>
                       Gruppierungen
                     </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§11.1 Gruppierungen</h3>
@@ -1002,7 +1018,8 @@ export default function Home() {
                         </ul>
                       </p>
                   </div>
-                </div>   
+                </div>  
+              </div> 
 
                   {/* Räube|Überfälle */}
                   <div className="space-y-6">
@@ -1010,6 +1027,7 @@ export default function Home() {
                       <span className="bg-white/10 px-3 py-1 rounded-lg">12</span>
                       Räube|Überfälle
                     </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§12.1 Überfälle</h3>
@@ -1046,7 +1064,8 @@ export default function Home() {
                         </ul>
                       </p>
                   </div>
-                </div>   
+                </div> 
+              </div>  
 
                   {/* Streaming */}
                   <div className="space-y-6">
@@ -1054,6 +1073,7 @@ export default function Home() {
                       <span className="bg-white/10 px-3 py-1 rounded-lg">13</span>
                       Streaming
                     </h2>
+                  <div className="grid md:grid-cols-2 gap-6">
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§13.1 Streamen</h3>
@@ -1082,13 +1102,15 @@ export default function Home() {
                       </p>
                   </div> 
                 </div>  
+              </div>
 
                   {/* Blacklist Wörter  */}
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">14</span>
                       Blacklist Wörter
-                    </h2> 
+                    </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§14.1 BLacklist Wörter</h3>
@@ -1142,7 +1164,8 @@ export default function Home() {
                         </ul>
                       </p>
                   </div>
-                </div>   
+                </div> 
+              </div>  
 
                  {/* Sonstiges  */}
                   <div className="space-y-6">
@@ -1150,6 +1173,7 @@ export default function Home() {
                       <span className="bg-white/10 px-3 py-1 rounded-lg">16</span>
                       Sonstiges
                     </h2>
+                  <div className="grid md:grid-cols-2 gap-6">
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§16.1 Fahrzeugverkauf</h3>
@@ -1213,7 +1237,8 @@ export default function Home() {
                         </ul>
                       </p>
                   </div>
-                </div>   
+                </div>  
+              </div> 
 
                  {/* Fraktionsregelwerk  */}
                   <div className="space-y-6">
@@ -1221,6 +1246,7 @@ export default function Home() {
                       <span className="bg-white/10 px-3 py-1 rounded-lg"></span>
                       Fraktionsregelwerk
                     </h2>
+                  <div className="grid md:grid-cols-2 gap-6">
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§1.1 Fraktionshopping</h3>
@@ -1275,7 +1301,8 @@ export default function Home() {
                         </ul>
                       </p>
                   </div> 
-                </div>  
+                </div> 
+              </div> 
 
                  {/* Legale Fraktionen */}
                   <div className="space-y-6">
@@ -1283,6 +1310,7 @@ export default function Home() {
                       <span className="bg-white/10 px-3 py-1 rounded-lg">2</span>
                       Legale Fraktionen
                     </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§2.1 Korruption</h3>
@@ -1311,6 +1339,7 @@ export default function Home() {
                       </p>
                   </div> 
                 </div>  
+              </div>
 
                  {/* Illegale Fraktionen */}
                   <div className="space-y-6">
@@ -1318,6 +1347,7 @@ export default function Home() {
                       <span className="bg-white/10 px-3 py-1 rounded-lg">3</span>
                       Illegale Fraktionen
                     </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§3.1 Mitgliederzahl</h3>
@@ -1418,6 +1448,8 @@ export default function Home() {
                       </p>
                   </div> 
                 </div>  
+              </div>
+              
            {/* Footer */}
           <footer className="border-t border-white/10 bg-black/80 mt-24">
         <div className="container mx-auto px-4 py-10 grid md:grid-cols-4 gap-10">
