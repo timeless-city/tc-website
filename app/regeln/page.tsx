@@ -436,8 +436,7 @@ export default function Home() {
                       Geiselnahmen
                   </h2>
                 <div className="grid md:grid-cols-2 gap-6">
-                
-                  
+                   
                 <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                  <h3 className="text-xl font-semibold mb-3">§3.1 Geiselnahmen und Raubüberfälle</h3>
                   <p className="text-gray-300">
@@ -1168,6 +1167,7 @@ export default function Home() {
                         </ul>
                       </p>
                   </div>
+
                 </div> 
               </div>  
             </div>
@@ -1245,7 +1245,9 @@ export default function Home() {
                 </div>  
               </div> 
 
+
                  {/* Fraktionsregelwerk  */}
+                 <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg"></span>
@@ -1308,6 +1310,7 @@ export default function Home() {
                   </div> 
                 </div> 
               </div> 
+            </div>
 
                  {/* Legale Fraktionen */}
                   <div className="space-y-6">
