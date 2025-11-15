@@ -154,27 +154,21 @@ export default function Home() {
                    <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§1.5 Admin-Beachtung</h3>
                       <p className="text-gray-300">
-                        <ul className="space-y-2 mt-2">
-                          Teammitglieder dürfen Ingame nicht beachtet werden, wenn sie ihren Admin-Anzug tragen
-                        </ul>
+                        Teammitglieder dürfen Ingame nicht beachtet werden, wenn sie ihren Admin-Anzug tragen
                       </p>
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§1.6 Bugusing</h3>
                       <p className="text-gray-300">
-                        <ul className="space-y-2 mt-2">
                          Fehlerhafte Spielmechaniken (Bugusing) sind sofort im Support zu melden. Das Ausnutzen von Bugs ist strengstens untersagt.
-                        </ul>
                       </p>
                   </div>  
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§1.7 Respekt</h3>
                       <p className="text-gray-300">
-                        <ul className="space-y-2 mt-2">
                           Alle Spieler sind dazu angehalten, sich respektvoll und höflich gegenüber anderen Spielern und Teammitgliedern zu verhalten. Diskriminierung, Beleidigungen, Belästigung oder toxisches Verhalten werden nicht toleriert und können zu einer Verwarnung oder einem Bann führen.
-                        </ul>
                       </p>
                   </div>
 
