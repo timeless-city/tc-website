@@ -269,13 +269,14 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
                   {/* Roleplay Regeln */}
               <div className="space-y-6">
                 <h2 className="text-3xl font-semibold flex items-center gap-3">
                   <span className="bg-white/10 px-3 py-1 rounded-lg">2</span>
                   Roleplay Regeln
                 </h2>
-<div className="grid md:grid-cols-2 gap-6">
+              <div className="grid md:grid-cols-2 gap-6">
 
                   {/* §2.1 */}
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
@@ -426,15 +427,16 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-              </div>
+                </div>
 
-                  {/* Geiselnahmen */}
+                {/* Geiselnahmen */}
                 <div className="space-y-6">
                   <h2 className="text-3xl font-semibold flex items-center gap-3">
                     <span className="bg-white/10 px-3 py-1 rounded-lg">3</span>
                       Geiselnahmen
                   </h2>
-                    <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid md:grid-cols-2 gap-6">
+                
                   
                 <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                  <h3 className="text-xl font-semibold mb-3">§3.1 Geiselnahmen und Raubüberfälle</h3>
@@ -500,7 +502,7 @@ export default function Home() {
                     </h2>
                     <div className="grid md:grid-cols-2 gap-6">
 
-                 </div>      
+                       
                    <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§4.1 Teamspeak 3</h3>
                       <p className="text-gray-300">
@@ -536,7 +538,8 @@ export default function Home() {
                         </ul>
                       </p>
                   </div> 
-                </div>     
+                </div>  
+              </div>   
 
                   {/* Definitionen */}
                   <div className="space-y-6">
@@ -1137,6 +1140,7 @@ export default function Home() {
                       <span className="bg-white/10 px-3 py-1 rounded-lg">15</span>
                       Discord
                     </h2>
+                  <div className="grid md:grid-cols-2 gap-6">
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§15.1 Informationen</h3>
@@ -1166,6 +1170,7 @@ export default function Home() {
                   </div>
                 </div> 
               </div>  
+            </div>
 
                  {/* Sonstiges  */}
                   <div className="space-y-6">
@@ -1449,7 +1454,7 @@ export default function Home() {
                   </div> 
                 </div>  
               </div>
-              
+
            {/* Footer */}
           <footer className="border-t border-white/10 bg-black/80 mt-24">
         <div className="container mx-auto px-4 py-10 grid md:grid-cols-4 gap-10">
