@@ -1140,7 +1140,7 @@ export default function Home() {
                     <div className="grid md:grid-cols-2 gap-6">
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§14.1 BLacklist Wörter</h3>
+                    <h3 className="text-xl font-semibold mb-3">§14.1 Blacklist Wörter</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
                         <strong>Folgende Wörter dürfen auf unserem Server nicht verwendet werden, außer es passt zur RP-Situation:</strong>
