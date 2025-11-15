@@ -296,10 +296,9 @@ export default function Home() {
                       Es ist absolut untersagt, im Roleplay auf Regelbrüche oder das Regelwerk hinzuweisen.
                     </p>
                   </div>
-                </div>
-              </div>
+              
 
-                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§2.3 RP-Namen</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
@@ -426,6 +425,8 @@ export default function Home() {
                         </ul>
                       </p>
                     </div>
+                  </div>
+              </div>
 
                   {/* Geiselnahmen */}
                 <div className="space-y-6">
@@ -440,7 +441,6 @@ export default function Home() {
                   Geiselnahmen und Raubüberfälle sind dafür da, um für ein spannendes Rollenspiel zu sorgen. Good- und Bad Fraktionen müssen zusammenarbeiten. Unrealistische Forderungen wie "Sonst stirbt die Geisel" gelten als "Power-RP". Allgemein muss auf realistische und erfüllbare Forderungen geachtet werden. Beide Parteien müssen  sich einigen können. Versucht eine Partei, diesem aktiv entgegenzuwirken, gilt dies als RP-Verweigerung. Raubüberfälle dürfen nicht in der Absicht gestartet werden, eine Schießerei zu provozieren. Vereinbarungen, welche während einer Verhandlung getroffen werden, sind einzuhalten. Nach 10 Sekunden schon zu schießen oder zu pitten, ist Fail-RP.
                   </p>
                 </div>
-              </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§3.2 Staatsbeamte als Geiseln</h3>
@@ -485,7 +485,8 @@ export default function Home() {
                           Mitarbeiter von LSMD, DOT sowie des Governments sind während ihres Dienstes unantastbar. Ausnahme: Handeln Mitarbeiter des DOT oder des Governments im Auftrag der Polizei (z.B. zur Unterstützung der Polizei bei einer Festnahme oder beim Abschleppen), dann entfällt die Unantastbarkeit. Ebenso, wenn sich der Beteiligte strafbar macht.
                         </ul>
                       </p>
-                  </div>      
+                  </div> 
+                </div>     
 
                   {/* Kommunikation */}
                   <div className="space-y-6">
@@ -546,7 +547,6 @@ export default function Home() {
                         </ul>
                       </p>
                   </div>
-                </div>
                   
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§5.2 RDM (Random Deathmattch)</h3>
@@ -654,7 +654,8 @@ export default function Home() {
                           3. Partei bezeichnet das Einmischen in eine laufende RP-Situation zwischen anderen Spielern oder Gruppierungen.
                         </ul>
                       </p>
-                  </div>          
+                  </div>
+                </div>         
 
                   {/* Support */}
 <div className="space-y-6">
@@ -719,9 +720,6 @@ export default function Home() {
         72 Stunden nach einem Verlust möglich.
       </p>
     </div>
-  </div>
-</div>
-
                   
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§6.7 Wahrheitspflicht</h3>
@@ -748,7 +746,10 @@ export default function Home() {
                           Fordert ein Supporter einen dazu auf, dass man sich im Support melden soll, ist dieser Anweisung schnellstmöglich nachzukommen.
                         </ul>
                       </p>
-                  </div>   
+                  </div> 
+                </div>
+              </div>
+  
 
                   {/* Safezonen und Gefahrenzonen */}
                   <div className="space-y-6">
@@ -772,8 +773,7 @@ export default function Home() {
                            <li>Alle weiteren Orte, die auf der Ingame Karte grün markiert sind.</li>
                         </ul>
                       </p>
-                  </div> 
-                </div>  
+                  </div>  
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§7.2 Safezone Regeln</h3>
@@ -796,7 +796,8 @@ export default function Home() {
                           <li>Alle weiteren Orte, welche auf der Ingame Karte rot markiert sind.</li>
                         </ul>
                       </p>
-                  </div>   
+                  </div>
+                </div>    
 
                   {/* New Life Regelung */}
                   <div className="space-y-6">
