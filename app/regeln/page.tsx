@@ -37,120 +37,121 @@ export default function Home() {
                 BETA
               </span>
             </div>
-          </Link>
           
-          <div className="flex items-center gap-4">
-            <Link href="/" className="hover:text-white transition-colors flex items-center gap-1">
-              <FiArrowRight className="w-5 h-5 transform rotate-180" />
-              <span className="hidden sm:inline">Zurück</span>
-            </Link>
-          </div>
-        </nav>
-      </header>
 
-      <main className="pt-32 pb-24">
+                    </Link>
+          
+        <div className="flex items-center gap-4">
+          <Link href="/" className="hover:text-white transition-colors flex items-center gap-1">
+            <FiArrowRight className="w-5 h-5 transform rotate-180" />
+            <span className="hidden sm:inline">Zurück</span>
+          </Link>
+        </div>
+      </nav>
+    </header>
 
+  
+    <main className="pt-32 pb-24">
       <section className="container mx-auto px-4 py-12">
-  <motion.div 
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    className="bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm"
-  >
-    {/* Header */}
-    <div className="p-8 border-b border-white/10">
-      <div className="flex items-center gap-1 mb-4">
-      <FiShield className="w-12 h-12 text-white" />
-      <div>
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-        Server-Regelwerk
-        </h1>
-        <p className="text-gray-400 mt-1">Stand: 15 November 2025 · Version 1.0</p>
-      </div>
-      </div>
-      <p className="text-gray-300">
-      Mit der Nutzung des Servers erklärst du dich mit den folgenden Regeln einverstanden. 
-      Unwissenheit schützt nicht vor Sanktionen. Bei Fragen stehen wir im Discord zur Verfügung.
-      </p>
-    </div>
-    
-    <div className="min-h-screen bg-black text-white font-sans antialiased relative">
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-black/30 pointer-events-none" />
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm"
+        >
+          {/* Header */}
+          <div className="p-8 border-b border-white/10">
+            <div className="flex items-center gap-1 mb-4">
+              <FiShield className="w-12 h-12 text-white" />
+              <div>
+                <h1 className="text-4xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+                  Server-Regelwerk
+                </h1>
+                <p className="text-gray-400 mt-1">
+                  Stand: 15 November 2025 · Version 1.0
+                </p>
+              </div>
+            </div>
+          
 
-      <main className="pt-32 pb-24">
-        <section className="container mx-auto px-1 py-0">
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm"
-          >
-
-
-            <div className="p-8 space-y-10">
-              {/* Allgemeine Regeln */}
-              <div className="space-y-6">
-                <h2 className="text-3xl font-semibold flex items-center gap-3">
-                  <span className="bg-white/10 px-3 py-1 rounded-lg">1</span>
-                  Allgemeine Regeln
-                </h2>
-
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§1.1 FiveM Richtlinien</h3>
-                    <p className="text-gray-300">
-                      Bitte beachte, dass die allgemeinen Geschäftsbedingungen von FiveM gelten, die du unter folgendem Link findest:
-                      (Mit dem Betreten des Servers akzeptierst du sowohl diese als auch die AGBs des Servers unter timelesscity.de/agb zu finden.)
-                    </p>
-                    <a
-                      href="https://runtime.fivem.net/platform-license-agreement-12-sept-2023.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 mt-3 text-sm text-gray-400 hover:text-white"
-                    >
-                      <FiArrowRight className="w-4 h-4" />
-                      FiveM AGB anzeigen
-                    </a>
-                   
-                  </div>
+            <p className="text-gray-300">
+              Mit der Nutzung des Servers erklärst du dich mit den folgenden Regeln einverstanden. 
+              Unwissenheit schützt nicht vor Sanktionen. Bei Fragen stehen wir im Discord zur Verfügung.
+            </p>
+          </div>
+        </motion.div>
+      </section>
+    </main>
         
-                  {/* Support */} 
-                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§1.2 Team-Anweisungen</h3>
-                    <p className="text-gray-300">
-                      <ul className="space-y-2 mt-2">
-                        Den Anweisungen der Teamler (unabhängig des Rangs) ist stets folge zu leisten.
-                      </ul>
-                    </p>
-                  </div>
+      
 
-                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§1.3 Werbung</h3>
-                      <p className="text-gray-300">
-                        <ul className="space-y-2 mt-2">
-                          Jegliche Werbung für andere Server, sei es mündlich oder schriftlich, ist untersagt und wird mit einem Ausschluss vom Server sanktioniert.
-                        <ul>
-                     </p>
-                  </div>
+          {/* Support */}
+          <div className="p-8 space-y-10">
+            {/* Allgemeine Regeln */}
+            <div className="space-y-6">
+              <h2 className="text-3xl font-semibold flex items-center gap-3">
+                <span className="bg-white/10 px-3 py-1 rounded-lg">1</span>
+                Allgemeine Regeln
+              </h2>
 
-                  <div classname="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§1.4 Zustimmung zur Datenverarbeitung</h3>
-                      <p className="text-gray-300">
-                        <ul classname="space-y-2 mt-2">
-                          Beim Beitritt des Servers stimmt man der Speicherung aller Daten zu, die durch TX Admin von den Nutzern erfasst werden können.Diese Daten bleiben Server Intern und werden nicht an Dritte weitergeleitet.
-                        </ul> 
-                      </p>
-                  </div>
+              <div className="grid md:grid-cols-2 gap-6">
+                {/* §1.1 */}
+                <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+                  <h3 className="text-xl font-semibold mb-3">§1.1 FiveM Richtlinien</h3>
+                  <p className="text-gray-300">
+                    Bitte beachte, dass die allgemeinen Geschäftsbedingungen von FiveM gelten, die du unter folgendem Link findest:
+                    (Mit dem Betreten des Servers akzeptierst du sowohl diese als auch die AGBs des Servers unter timelesscity.de/agb zu finden.)
+                  </p>
+                  <a
+                    href="https://runtime.fivem.net/platform-license-agreement-12-sept-2023.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 mt-3 text-sm text-gray-400 hover:text-white"
+                  >
+                    <FiArrowRight className="w-4 h-4" />
+                    FiveM AGB anzeigen
+                  </a>
+                </div>
 
-                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§1.4.1 Zustimmung der Datenverarbeitung</h3>
-                      <p classname="text-gray-300">
-                        <ul className="space-y-2 mt-2">
-                          Beim Betreten unseres Servers stimmt der jeweilige Spieler zu, dass seine Stimme auf öffentlichen Plattformen  (Youtube, Twitch,etc.) hörbar ist und  ggf. aufgezeichnet werden kann.
-                        </ul>
-                      </p>
-                  </div>
+                {/* §1.2 */}
+                <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+                  <h3 className="text-xl font-semibold mb-3">§1.2 Team-Anweisungen</h3>
+                  <p className="text-gray-300">
+                    Den Anweisungen der Teamler (unabhängig des Rangs) ist stets Folge zu leisten.
+                  </p>
+                </div>
 
-                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+                {/* §1.3 */}
+                <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+                  <h3 className="text-xl font-semibold mb-3">§1.3 Werbung</h3>
+                  <p className="text-gray-300">
+                    Jegliche Werbung für andere Server, sei es mündlich oder schriftlich, ist untersagt
+                    und wird mit einem Ausschluss vom Server sanktioniert.
+                  </p>
+                </div>
+
+                {/* §1.4 */}
+                <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+                  <h3 className="text-xl font-semibold mb-3">§1.4 Zustimmung der Datenverarbeitung</h3>
+                  <p className="text-gray-300">
+                    Beim Beitritt des Servers stimmt man der Speicherung aller Daten zu, die durch TX Admin
+                    von den Nutzern erfasst werden können. Diese Daten bleiben serverintern und werden nicht
+                    an Dritte weitergeleitet.
+                  </p>
+                </div>
+
+                {/* §1.4.1 */}
+                <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+                  <h3 className="text-xl font-semibold mb-3">§1.4.1 Zustimmung der Datenverarbeitung</h3>
+                  <p className="text-gray-300">
+                    Beim Betreten unseres Servers stimmt der jeweilige Spieler zu, dass seine Stimme auf
+                    öffentlichen Plattformen (YouTube, Twitch etc.) hörbar ist und ggf. aufgezeichnet werden kann.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§1.5 Admin-Beachtung</h3>
                       <p className="text-gray-300">
                         <ul className="space-y-2 mt-2">
@@ -178,7 +179,7 @@ export default function Home() {
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 classname="text-xl font-semibold mb-3">§1.8 Diskriminierung</h3>
+                    <h3 className="text-xl font-semibold mb-3">§1.8 Diskriminierung</h3>
                       <p className="text-gray-300">
                         <ul className="space-y-2 mt-2">
                           Rassistische, nationalsozialistische oder diskriminierende Äußerungen, sowie sexuelle Belästigungen und/oder OOC-Beleidigungen (Out of Character)  in jeglicher Hinsicht, sind zu unterlassen.
@@ -186,7 +187,7 @@ export default function Home() {
                       </p>
                   </div>
 
-                  <div classname="p-6 bg-white/5 rounded-xl border border-white/10">
+                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§1.9 Verhalten</h3>
                       <p className="text-gray-300">
                         <ul className="space-y-2 mt-2">
@@ -275,31 +276,34 @@ export default function Home() {
                   </div>
                   
                   {/* Roleplay Regeln */}
-                  <div className="space-y-6">
-                    <h2 className="text-3xl font-semibold flex items-center gap-3">
-                      <span className="bg-white/10 px-3 py-1 rounded-lg">2</span>
-                      Roleplay Regeln
-                    </h2>
+                                <div className="space-y-6">
+                <h2 className="text-3xl font-semibold flex items-center gap-3">
+                  <span className="bg-white/10 px-3 py-1 rounded-lg">2</span>
+                  Roleplay Regeln
+                </h2>
 
-                  <div className="grid md:grid-cols-2 gap-6">
-                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+                <div className="grid md:grid-cols-2 gap-6">
+                  {/* §2.1 */}
+                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§2.1 Leben schützen</h3>
-                      <p className="text-gray-300">
-                        <ul className="space-y mt-2">
-                          <li>Das eigene Leben ist das höchste Gut. Dieses gilt es mit allen Mitteln zu schützen und es nicht leichtsinnig aufs Spiel zu setzen.
-                          <li>► Beispiel: Wird man aktiv bedroht, folgt man den Anweisungen, um zu überleben.
-                        </ul>
-                      </p>
+                    <p className="text-gray-300">
+                      Das eigene Leben ist das höchste Gut, dieses gilt es mit allen Mitteln zu schützen
+                      und es nicht leichtsinnig aufs Spiel zu setzen.
+                    </p>
+                    <ul className="space-y mt-2">
+                      <li>► Beispiel: Wird man aktiv bedroht, folgt man den Anweisungen, um zu überleben.</li>
+                    </ul>
                   </div>
 
+                  {/* §2.2 */}
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                   <h3 className="text-xl font-semibold mb-3">§2.2 Hinweise Regelwerk</h3>
+                    <h3 className="text-xl font-semibold mb-3">§2.2 Hinweise Regelwerk</h3>
                     <p className="text-gray-300">
-                      <ul className="space-y mt-2">
-                        Es ist absolut untersagt, im Roleplay auf Regelbrüche oder das Regelwerk hinzuweisen.
-                      </ul>
+                      Es ist absolut untersagt, im Roleplay auf Regelbrüche oder das Regelwerk hinzuweisen.
                     </p>
                   </div>
+                </div>
+              </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§2.3 RP-Namen</h3>
@@ -311,15 +315,15 @@ export default function Home() {
                   </div>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§2.4 Identität</h3>
+                    <h3 className="text-xl font-semibold mb-3">§2.4 Ausweise</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                         Jeder Spieler der auf Timeless City einreist wird über einen imaginär Fingerabdrucksystem erfasst. Somit ist die Identität durch die Behörden feststellbar,
+                          Eine Spieler ist dazu nicht verpflichtet, einen Ausweis zu besitzen. Das LSPD hat die Möglichkeit, den Spieler zur Identitätsfeststellung auf die Wache mitzunehmen.
                         </ul>
                       </p>
                   </div>
 
-                  <div classname="p-6 bg-white/5 rounded-xl border border-white/10">
+                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§2.5 Soundboards</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
@@ -350,7 +354,7 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-3">§2.8 Fahrzeuginteraktion</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Leichtes Anstoßen mit Autos ist erlaubt, jedoch sind alle darüber hinausgehenden Aktionen, wie starkes Rammen oder das Tackeln von Personen bei sehr hoher Geschwindigkeit untersagt. Dies umfasst auch das Rammen von LKW´s und deren Aufliegern. Das Befahren unbefestigter Wege ist z.B. nur mit einem geländegängigen Fahrzeug und nicht mit einem Sportwagen erlaubt.
+                          Leichtes Anstoßen mit Autos ist erlaubt, jedoch sind alle darüber hinausgehenden Aktionen, wie starkes Rammen oder das Tackeln von Personen bei sehr hoher Geschwindigkeit untersagt. Dies umfasst auch das Rammen von LKW´s und deren Aufliegern. Das Befahren eines Berges ist z.B. nur mit einem geländegängigen Fahrzeug und nicht mit einem Sportwagen erlaubt.
                         </ul>
                       </p>
                   </div>
@@ -395,7 +399,7 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-3">§2.13 OOC-Talk</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Das Reden IC ('In Character') über OOC ('Out of Character')-Themen ist untersagt. Zweit-Charaktere haben kein Wissen und keinen Bezug zu Taten und Handlungen des Hauptcharakters und umgekehrt. Außerdem ist es verboten, diesen als Bruder oder Schwester zu bezeichnen, da eine Person nicht 2 Familienmitglieder spielen kann.
+                          Das Reden IC ('In Character') über OOC ('Out of Character')-Themen ist untersagt. Zweit-Charaktere haben kein Wissen und keinen Bezug zu Taten und Handlungen des Hauptcharakters und umgekehrt. Außerdem ist es verboten, dies als Bruder zu bezeichnen, da eine Person nicht 2 Familienmitglieder spielen kann.
                         </ul>
                       </p>
                   </div>
@@ -422,27 +426,28 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-3">§2.16 Kommunikationsgeräte</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Während man gefesselt ist, ist die Nutzung jeglicher Kommunikationsgeräte, wie Handys oder Funkgeräte sowie von unpassenden Emotes, nicht gestattet.</li>
+                          <p className="text-gray-300">
+                            Während man gefesselt ist, ist die Nutzung jeglicher Kommunikationsgeräte, wie Handys oder Funkgeräte, sowie von unpassenden Emotes, nicht gestattet.
+                          </p>
                         </ul>
                       </p>
-                  </div>      
+                    </div>
 
                   {/* Geiselnahmen */}
-                  <div className="space-y-6">
-                    <h2 className="text-3xl font-semibold flex items-center gap-3">
-                      <span className="bg-white/10 px-3 py-1 rounded-lg">3</span>
+                <div className="space-y-6">
+                  <h2 className="text-3xl font-semibold flex items-center gap-3">
+                    <span className="bg-white/10 px-3 py-1 rounded-lg">3</span>
                       Geiselnahmen
-                    </h2>
+                  </h2>
 
-                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§3.1 Geiselnahmen und Raubüberfälle</h3>
-                      <p className="text-gray-300">
-                        <ul className="space-y mt-2">
-                          Geiselnahmen und Raubüberfälle sind dafür da, um für ein spannendes Rollenspiel zu sorgen. Good- und Bad Fraktionen müssen zusammenarbeiten. Unrealistische Forderungen wie "Sonst stirbt die Geisel" gelten als "Power-RP". Allgemein muss auf realistische und erfüllbare Forderungen geachtet werden. Beide Parteien müssen  sich einigen können. Versucht eine Partei, diesem aktiv entgegenzuwirken, gilt dies als RP-Verweigerung. Raubüberfälle dürfen nicht in der Absicht gestartet werden, eine Schießerei zu provozieren. Vereinbarungen, welche während einer Verhandlung getroffen werden, sind einzuhalten. Nach 10 Sekunden schon zu schießen oder zu pitten, ist Fail-RP.
-                        </ul>
-                      </p>
-                 
-                      </div>      
+                <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+                 <h3 className="text-xl font-semibold mb-3">§3.1 Geiselnahmen und Raubüberfälle</h3>
+                  <p className="text-gray-300">
+                  Geiselnahmen und Raubüberfälle sind dafür da, um für ein spannendes Rollenspiel zu sorgen. Good- und Bad Fraktionen müssen zusammenarbeiten. Unrealistische Forderungen wie "Sonst stirbt die Geisel" gelten als "Power-RP". Allgemein muss auf realistische und erfüllbare Forderungen geachtet werden. Beide Parteien müssen  sich einigen können. Versucht eine Partei, diesem aktiv entgegenzuwirken, gilt dies als RP-Verweigerung. Raubüberfälle dürfen nicht in der Absicht gestartet werden, eine Schießerei zu provozieren. Vereinbarungen, welche während einer Verhandlung getroffen werden, sind einzuhalten. Nach 10 Sekunden schon zu schießen oder zu pitten, ist Fail-RP.
+                  </p>
+                </div>
+              </div>
+
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§3.2 Staatsbeamte als Geiseln</h3>
                       <p className="text-gray-300">
@@ -456,7 +461,7 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-3">§3.3 Freilassung von Geiseln</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Wenn eine Person als Geisel genommen wird, muss sie spätestens nach 20 Min. freigelassen werden, sofern innerhalb dieser Zeit kein Raub gestartet wird (Sollte die Zeit überschritten werden, kann dies bei Bedarf mit dem Support geklärt werden).
+                          Wenn eine Person als Geisel genommen wird, muss sie spätestens nach 20 Min. freigelassen werden, sofern innerhalb dieser Zeit kein Raub gestartet wird (Sollte die Zeit überschritten werden, kann dies bei Bedarf dem Support geklärt werden).
                         </ul>
                       </p>
                  
@@ -546,10 +551,11 @@ export default function Home() {
                           VDM (Vehicle Deathmatch) ist das sinnlose An- bzw. Überfahren von anderen Spielern ohne einen RP-Hintergrund. Ausnahmen bestehen, wenn dies der einzige Weg ist,durch leichtes Anfahren oder Wegschieben anderer Spieler das eigene Leben zu schützen.
                         </ul>
                       </p>
-                  </div> 
+                  </div>
+                </div>
                   
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§5.2 RDM (Random Deathmatch)</h3>
+                    <h3 className="text-xl font-semibold mb-3">§5.2 RDM (Random Deathmattch)</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
                           RDM (Random Deathmatch) ist das sinnlose Angreifen bzw. Töten von anderen Spielern ohne einen RP-Hintergrund.
@@ -630,7 +636,7 @@ export default function Home() {
                   </div>      
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§5.11 Ninja-RP</h3>
+                    <h3 className="text-xl font-semibold mb-3">§5.11 Minja-RP</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
                           Ninja-RP bezeichnet das Einmischen in eine Roleplay-Situation, ohne direkten Bezug zur Situation zu haben.
@@ -657,65 +663,71 @@ export default function Home() {
                   </div>          
 
                   {/* Support */}
-                  <div className="space-y-6">
-                    <h2 className="text-3xl font-semibold flex items-center gap-3">
-                      <span className="bg-white/10 px-3 py-1 rounded-lg">6</span>
-                      Support
-                    </h2>
+<div className="space-y-6">
+  <h2 className="text-3xl font-semibold flex items-center gap-3">
+    <span className="bg-white/10 px-3 py-1 rounded-lg">6</span>
+    Support
+  </h2>
 
-                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§6.1 Meldungen</h3>
-                      <p className="text-gray-300">
-                        <ul className="space-y mt-2">
-                          Es besteht nur die Möglichkeit, einen Regelbruch innerhalb von 72 Stunden zu melden. Supportfälle, die nach Ablauf dieser 72 Stunden gemeldet werden, verfallen und werden nicht bearbeitet. Ausnahmen sind Meldungen von Bugs, Moddern oder Trollern.
-                        </ul>
-                      </p>
-                  </div>   
-                  
-                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§6.2 Beweispflicht</h3>
-                      <p className="text-gray-300">
-                        <ul className="space-y mt-2">
-                          Beweise, welche im Support gezeigt werden, müssen die wichtigen Inhalte der RP-Situation inkl. Ton und Stimmen beinhalten. Aufnahmen, die nicht den Kriterien entsprechen, werden vom leitenden Supporter abgelehnt.
-                        </ul>
-                      </p>
-                  </div>      
+  <div className="grid md:grid-cols-2 gap-6">
+    {/* §6.1 */}
+    <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+      <h3 className="text-xl font-semibold mb-3">§6.1 Meldungen</h3>
+      <p className="text-gray-300">
+        Es besteht nur die Möglichkeit, einen Regelbruch innerhalb von 72 Stunden zu melden.
+        Supportfälle, die nach Ablauf dieser 72 Stunden gemeldet werden, verfallen und werden nicht
+        bearbeitet. Ausnahmen sind Meldungen von Bugs, Moddern oder Trollern.
+      </p>
+    </div>   
 
-                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§6.3 Support aufsuchen</h3>
-                      <p className="text-gray-300">
-                        <ul className="space-y mt-2">
-                          Der Support darf erst aufgesucht werden, nachdem die laufende Situation vollständig beendet wurde.
-                        </ul>
-                      </p>
-                  </div>      
+    {/* §6.2 */}
+    <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+      <h3 className="text-xl font-semibold mb-3">§6.2 Beweispflicht</h3>
+      <p className="text-gray-300">
+        Beweise, welche im Support gezeigt werden, müssen die wichtigen Inhalte der RP-Situation
+        inklusive Ton und Stimmen beinhalten. Aufnahmen, die nicht den Kriterien entsprechen, werden
+        vom leitenden Supporter abgelehnt.
+      </p>
+    </div>      
 
-                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§6.4 Aufzeichnungen</h3>
-                      <p className="text-gray-300">
-                        <ul className="space-y mt-2">
-                          Gespräche im Support dürfen nur vom beteiligten Supporter selbst aufgezeichnet werden, zum Zwecke der Beweissicherung. Verstöße können strafrechtlich verfolgt werden (§201	Abs. 1 StGB).
-                        </ul>
-                      </p>
-                  </div>      
+    {/* §6.3 */}
+    <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+      <h3 className="text-xl font-semibold mb-3">§6.3 Support aufsuchen</h3>
+      <p className="text-gray-300">
+        Der Support darf erst aufgesucht werden, nachdem die laufende Situation vollständig beendet wurde.
+      </p>
+    </div>      
 
-                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§6.5 /Report-Befehl</h3>
-                      <p className="text-gray-300">
-                        <ul className="space-y mt-2">
-                          Die Nutzung des Befehls /Report (Grund) darf nur verwendet werden, wenn die Situation anders nicht lösbar ist, oder es sich um Bugs, Modder oder Troller handelt.
-                        </ul>
-                      </p>
-                  </div>      
+    {/* §6.4 */}
+    <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+      <h3 className="text-xl font-semibold mb-3">§6.4 Aufzeichnungen</h3>
+      <p className="text-gray-300">
+        Gespräche im Support dürfen nur vom beteiligten Supporter selbst aufgezeichnet werden, zum Zweck
+        der Beweissicherung. Verstöße können strafrechtlich verfolgt werden (§201 Abs. 1 StGB).
+      </p>
+    </div>      
 
-                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§6.6 Rückerstattungen</h3>
-                      <p className="text-gray-300">
-                        <ul className="space-y mt-2">
-                         Rückerstattungen sind nur mit einem Beweis in Form eines Clips möglich. Aus diesem Clip mit Ton muss der Grund der Rückerstattung ersichtlich sein. Anträge auf Rückerstattungen sind nur bis zu 72 Stunden nach einem Verlust möglich. 
-                          <img src="/images/secret.png" className=""/>
-                      </p>
-                  </div>
+    {/* §6.5 */}
+    <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+      <h3 className="text-xl font-semibold mb-3">§6.5 /Report-Befehl</h3>
+      <p className="text-gray-300">
+        Die Nutzung des Befehls /report (Grund) darf nur verwendet werden, wenn die Situation anders
+        nicht lösbar ist oder es sich um Bugs, Modder oder Troller handelt.
+      </p>
+    </div>      
+
+    {/* §6.6 */}
+    <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+      <h3 className="text-xl font-semibold mb-3">§6.6 Rückerstattungen</h3>
+      <p className="text-gray-300">
+        Rückerstattungen sind nur mit einem Beweis in Form eines Clips möglich. Aus diesem Clip mit Ton
+        muss der Grund der Rückerstattung ersichtlich sein. Anträge auf Rückerstattungen sind nur bis zu
+        72 Stunden nach einem Verlust möglich.
+      </p>
+    </div>
+  </div>
+</div>
+
                   
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§6.7 Wahrheitspflicht</h3>
@@ -759,20 +771,21 @@ export default function Home() {
                            <li>Das gesamte Gelände des LSMD.</li>
                            <li>Das Gebäude des Flughafens von Los Santos.</li>
                            <li>Das staatliche Autohaus.</li>
-                           <li>Das Gebäude des Governments.</li>
+                           <li>Das Gebäude des Governments</li>
                            <li>Das Gebäude des DOT.</li>
                            <li>Sammler, Verarbeiter und Verkäufer der legalen Routen.</li>
                            <li>Die Fahrschule von Los Santos.</li>
                            <li>Alle weiteren Orte, die auf der Ingame Karte grün markiert sind.</li>
                         </ul>
                       </p>
-                  </div>   
+                  </div> 
+                </div>  
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
                     <h3 className="text-xl font-semibold mb-3">§7.2 Safezone Regeln</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Safezones sind Orte, die als sehr schützenswert gelten. Aus diesem Grund ist es dort nicht erlaubt, andere Spieler auszurauben, sie zu bedrohen oder zu töten. Auch ist das Verstecken in einer Zone mit dem Ziel, der anderen Partei zu entkommen, ebenfalls verboten. Außerdem ist es zu vermeiden, eine laufende Situation in eine Safezone zu verlagern, da dies unbeteiligte Spieler unnötig gefährdet. Sollte sich dennoch eine Situation mit einem triftigen Grund in eine solche Zone verlagern, so ist sie ausschließlich für die beteiligten Personen unwirksam.
+                          Safezones sind Orte, die als sehr schützenswert gelten. Aus diesem Grund ist es dort nicht erlaubt, andere Spieler auszurauben, sie zu bedrohen oder zu töten. Auch ist das Verstecken in einer Zone mit dem Ziel, der anderen Partei zu entkommen, ebenfalls verboten. Außerdem ist es zu vermeiden, eine laufende Situation in eine Safezone zu verlagern, da dies unbeteiligte Spieler unnötig gefährdet. Sollte sich dennoch eine Situation mit einem triftigen Grund in eine solche Zone verlagern,so ist sie ausschließlich für die beteiligten Personen unwirksam.
                         </ul>
                       </p>
                   </div>   
@@ -823,7 +836,8 @@ export default function Home() {
                           Eine Hinrichtung gilt als finaler Tod des Charakters und muss via Ticket inkl. triftigem RP-Hintergrund beim High-Team beantragt werden. Eine Hinrichtung bedeutet die finale Löschung des Charakters durch das Serverteam im Anschluss an die Hinrichtung, welche Ingame durchgeführt wird.
                         </ul>
                       </p>
-                  </div>   
+                  </div> 
+                </div>  
 
                   {/* Medic & Police-RP  */}
                   <div className="space-y-6">
@@ -875,7 +889,8 @@ export default function Home() {
                           In Gefahrenzonen darf das Police Department nach einer Warnung auf Personen schießen, die unerlaubt die Gefahrenzone betreten. Es ist verboten, daraufhin das Feuer auf die Beamten zu eröffnen und sich auf Notwehr zu beziehen.
                         </ul>
                       </p>
-                  </div>   
+                  </div>
+                </div>  
 
                   {/* Waffengewalt */}
                   <div className="space-y-6">
@@ -906,7 +921,7 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-3">§10.3 Drive-Bys</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Drive-Bys sind kein Verstoß gegen das Regelwerk! .</li>
+                          Drive-Bys sind kein Verstoß gegen das Regelwerk! .
                         </ul>
                       </p>
                   </div>   
@@ -924,7 +939,7 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-3">§10.5 Bewusstlosigkeit</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Personen, welche während einer Schießerei bewusstlos werden , ist es nicht gestattet, nach einer Behandlung durch den Mediziner erneut am Gefecht teilzunehmen.
+                          Personen, welche während einer Schießerei bewusstlos geworden sind, ist es nicht gestattet, nach einer Behandlung durch den Mediziner erneut am Gefecht teilzunehmen.
                         </ul>
                       </p>
                   </div>   
@@ -936,7 +951,8 @@ export default function Home() {
                           Es ist verboten, eine Verkehrskontrolle des Police Department als Grund für ein Schussgefecht zu verwenden.
                         </ul>
                       </p>
-                  </div>   
+                  </div>
+                </div>   
 
                  {/* Gruppierungen   */}
                   <div className="space-y-6">
@@ -988,13 +1004,14 @@ export default function Home() {
                           Zivilisten Gruppen sollten sich bewusst sein, dass Fraktionen in der Regel über eine höhere Anzahl an Mitgliedern verfügen. Es wird empfohlen, vorsichtig zu agieren und absichtliche Provokationen gegenüber den Fraktionen zu vermeiden.
                         </ul>
                       </p>
-                  </div>   
+                  </div>
+                </div>   
 
-                  {/* Raube|Überfälle */}
+                  {/* Räube|Überfälle */}
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">12</span>
-                      Raube|Überfälle
+                      Räube|Überfälle
                     </h2>
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
@@ -1016,7 +1033,7 @@ export default function Home() {
                   </div>   
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§12.3 Raube</h3>
+                    <h3 className="text-xl font-semibold mb-3">§12.3 Räube</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
                           Begonnene Raube oder Überfälle müssen ausgespielt werden. Mehrfaches Starten und Abbrechen ohne Grund führt zu einer Sanktion wegen Cop-Baiting.
@@ -1031,7 +1048,8 @@ export default function Home() {
                           Der Diebstahl von mehr als $2.500 von einem anderen Spieler ist verboten.
                         </ul>
                       </p>
-                  </div>   
+                  </div>
+                </div>   
 
                   {/* Streaming */}
                   <div className="space-y-6">
@@ -1065,7 +1083,8 @@ export default function Home() {
                           Das Streamen des Support ist grundsätzlich verboten! Siehe (§6.4). Während des Supports ist der Stream zu beenden oder die Tonausgabe stummzuschalten!
                         </ul>
                       </p>
-                  </div>   
+                  </div> 
+                </div>  
 
                   {/* Blacklist Wörter  */}
                   <div className="space-y-6">
@@ -1075,7 +1094,7 @@ export default function Home() {
                     </h2> 
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§14.1 Blacklist Wörter</h3>
+                    <h3 className="text-xl font-semibold mb-3">§14.1 BLacklist Wörter</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
                         <strong>Folgende Wörter dürfen auf unserem Server nicht verwendet werden, außer es passt zur RP-Situation:</strong>
@@ -1087,10 +1106,11 @@ export default function Home() {
                           <li>Mikro(fon)</li>
                           <li>Aufnahme / Clip</li>
                           <li>Regelwerk / Bibel</li>
-                          <li>Alle weiteren Begriffe, die nichts im Roleplay zu suchen haben.</li>
+                          <li>alle weiteren Begriffe, die nicht im Roleplay zu suchen haben.</li>
                         </ul>
                       </p>
-                  </div> 
+                    </div> 
+                  </div>
                   
                   {/* Discord */}
                   <div className="space-y-6">
@@ -1124,7 +1144,8 @@ export default function Home() {
                           Die Channel der einzelnen Fraktionen auf dem Fraktions Discord gelten grundsätzlich als IC. Dies bedeutet, dass dort auch nur IC geschrieben werden darf. (Ausnahme: auf Verlangen der Fraktionsmanager).
                         </ul>
                       </p>
-                  </div>   
+                  </div>
+                </div>   
 
                  {/* Sonstiges  */}
                   <div className="space-y-6">
@@ -1152,7 +1173,7 @@ export default function Home() {
                   </div>   
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§16.3 Sozial Media</h3>
+                    <h3 className="text-xl font-semibold mb-3">§16.3 Lifeinvader | Jobads</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
                           Bei Nutzung der Social Media Apps ist es untersagt, schwere Beleidigungen zu nutzen, sowie Rassistische Äußerungen zu tätigen
@@ -1179,10 +1200,10 @@ export default function Home() {
                   </div>   
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§16.6 Grundlose Tiertötung </h3>
+                    <h3 className="text-xl font-semibold mb-3">§16.6 Grundloses Tiertötung </h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Das grundlose Töten eines Tieres ist nicht erlaubt. Ausnahme bildet die Notwehr. Wenn eine Person von einem Tier angegriffen wird, so darf sie sich gegen das angreifende Tier wehren.
+                          Das grundlose Töten eines Tieres ist nicht erlaubt. Ausnahme bildet die Notwehr. Wenn eine Person von einem Tier angegriffen wird, so darf man sich gegen das angreifende Tier wehren.
                         </ul>
                       </p>
                   </div>   
@@ -1194,7 +1215,8 @@ export default function Home() {
                           Das Kochen von illegalen Substanzen ist nur an Orten erlaubt, wo die entstehenden Dämpfe ungehindert nach oben abziehen können.
                         </ul>
                       </p>
-                  </div>   
+                  </div>
+                </div>   
 
                  {/* Fraktionsregelwerk  */}
                   <div className="space-y-6">
@@ -1207,7 +1229,7 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-3">§1.1 Fraktionshopping</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Um Fraktionshopping zu vermeiden, gelten folgende Sperrzeiten für den Austritt aus einer Fraktion: (Neutrale oder Good-Fraks=> 2 Tage / illegale Fraktionen=> 3 Tage).
+                          Um Fraktionshopping zu vermeiden, gelten folgende Sperrzeiten für den Austritt aus einer Fraktion: (Neutrale oder Good-Fraks = 2 Tage / illegale Fraktionen = 3 Tage).
                         </ul>
                       </p>
                   </div>  
@@ -1249,13 +1271,14 @@ export default function Home() {
                   </div>   
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§1.6 Staatliche Minijobs in besetzten Gebieten</h3>
+                    <h3 className="text-xl font-semibold mb-3">§1.6 Staatliche Mimijobs in besetzten Gebieten</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Personen, welche zur Erfüllung ihrer Aufgaben in den staatlichen Minijobs in besetzte Gebiete von Gangs oder Maffias eindringen müssen, dürfen von diesen nicht beachtet oder ausgeraubt werden, sofern sie nicht gegen ihre Pflichten verstoßen oder sich strafbar machen.
+                          Personen, welche zur Erfüllung ihrer Aufgaben in den Staatlichen Minijobs in besetzte Gebiete von Gangs oder Maffien eindringen müssen, dürfen von diesen nicht beachtet oder ausgeraubt werden, sofern sie nicht gegen ihre Pflichten verstoßen oder sich Strafbar machen.
                         </ul>
                       </p>
-                  </div>   
+                  </div> 
+                </div>  
 
                  {/* Legale Fraktionen */}
                   <div className="space-y-6">
@@ -1286,10 +1309,11 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-3">§2.3 Verfolgungsjagd</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Sollten Straftäter während einer aktiven Verfolgungsjagd auf ihr Fraktionsanwesen flüchten, dürfen die Beamten dies innerhalb für maximal 15 Minuten betreten, um eine Festnahme durchzuführen. Ist kein Erfolg in Aussicht, so müssen sie das Anwesen wieder verlassen und ggf. einen Razzia-Antrag stellen.
+                          Sollten Straftäter während einer aktiven Verfolgungsjagd auf ihr Fraktionsanwesen flüchten, dürfen die Beamten dies für maximal 15 Minuten betreten, um eine Festnahme durchzuführen. Ist kein Erfolg in Aussicht, so müssen sie das Anwesen wieder verlassen und ggf. einen Razzia-Antrag stellen.
                         </ul>
                       </p>
-                  </div>   
+                  </div> 
+                </div>  
 
                  {/* Illegale Fraktionen */}
                   <div className="space-y-6">
@@ -1311,7 +1335,7 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-3">§3.2 Fraktionsfahrzeuge</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Eine Fraktion muss immer ihre Fraktionsfahrzeuge nutzen, wenn sie als Einheit zusammen agiert.
+                          Eine Fraktion muss immer ihre Fraktionsfahrzeuge nutzen, wenn sie als Einheit zusammen agieren.
                         </ul>
                       </p>
                   </div>   
@@ -1338,7 +1362,7 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-3">§3.5 Hood</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Fraktionen müssen in ihrer Hood keine Schussankündigung aussprechen. Sie haben freie Schuss Möglichkeit, jedoch sollte dies immer noch die letzte Option sein. Für die beschossene Partei zählt dies nicht als Rechtfertigung für Vergeltung, da sie selbst schuld sind,wenn sie eine fremde Hood betreten und daraufhin beschossen werden sollten.
+                          Fraktionen müssen in ihrer Hood keine Schussankündigung aussprechen. Sie haben freie Schuss Möglichkeit, jedoch sollte dies immer noch die letzte Option sein. Für die beschossene Partei zählt dies nicht als Rechtfertigung, da sie selbst schuld sind,wenn sie eine fremde Hood betreten und daraufhin beschossen werden sollten.
                         </ul>
                       </p>
                   </div>   
@@ -1397,38 +1421,21 @@ export default function Home() {
                       </p>
                   </div>   
 
-    {/* Footer */}
-    <div className="p-8 border-t border-white/10 bg-black/20">
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-        <p className="text-gray-400 text-sm">
-          Regelverstöße werden individuell sanktioniert. Bei Fragen wende dich an das Support-Team.
-        </p>
-        <Link href="/" className="flex items-center gap-2 text-white hover:text-gray-300">
-          <FiArrowRight className="transform rotate-180" />
-          Zurück zur Startseite
-        </Link>
-      </div>
-    </div>
-  </motion.div>
-</section>
-
-
- 
-      </main>
-
-      <footer className="border-t border-white/10">
-        <div className="container mx-auto px-4 py-12 grid md:grid-cols-4 gap-8">
-          <div className="md:col-span-2">
+          <footer className="border-t border-white/10 bg-black/80 mt-24">
+        <div className="container mx-auto px-4 py-10 grid md:grid-cols-4 gap-10">
+          <div>
             <div className="flex items-center gap-3 mb-4">
-              <Image
-                src="/images/logotransparent.png"
-                alt="Logo"
-                width={80}
-                height={80}
-
+              <Image 
+                src="/images/logo.png"
+                alt="TimelessCity Logo"
+                width={40}
+                height={40}
+                className="animate-pulse"
               />
               <div>
-                <h3 className="text-xl font-bold">TimelessCity</h3>
+                <h3 className="text-xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                  TimelessCity
+                </h3>
                 <p className="text-gray-400 text-sm">Next-Level Roleplay Experience</p>
               </div>
             </div>
@@ -1440,7 +1447,7 @@ export default function Home() {
           <div>
             <h4 className="text-white/90 font-medium mb-4">Quick Links</h4>
             <div className="space-y-2">
-            <Link href="/regeln" className="block text-gray-400 hover:text-white text-sm">
+              <Link href="/regeln" className="block text-gray-400 hover:text-white text-sm">
                 Server-Regeln
               </Link>
               <Link href="/agb" className="block text-gray-400 hover:text-white text-sm">
@@ -1456,7 +1463,10 @@ export default function Home() {
             <h4 className="text-white/90 font-medium mb-4">Kontakt</h4>
             <div className="space-y-2">
               <div className="text-gray-400 text-sm">
-                Support: <Link href="mailto:verwaltung.timeless@gmail.com" className="hover:text-white">verwaltung.timeless@gmail.com</Link>
+                Support:{' '}
+                <Link href="mailto:verwaltung.timeless@gmail.com" className="hover:text-white">
+                  verwaltung.timeless@gmail.com
+                </Link>
               </div>
               <SocialLinks />
             </div>
