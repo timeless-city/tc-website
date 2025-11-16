@@ -33,9 +33,6 @@ export default function Home() {
               <span className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
                 TimelessCity
               </span>
-              <span className="px-2 py-1 text-xs bg-white/10 rounded-full border border-white/10">
-                BETA
-              </span>
             </div>
           
 
@@ -313,7 +310,7 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-3">§2.4 Ausweise</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
-                          Eine Spieler ist dazu nicht verpflichtet, einen Ausweis zu besitzen. Das LSPD hat die Möglichkeit, den Spieler zur Identitätsfeststellung auf die Wache mitzunehmen.
+                          Von jedem Spieler wird bei der Einreise ein Imaginäerer Fingerabdruck genommen. Das LSPD hat die Möglichkeit den Spieler über den Fingerabduck zu identifizieren.
                         </ul>
                       </p>
                   </div>
@@ -738,6 +735,7 @@ export default function Home() {
         Rückerstattungen sind nur mit einem Beweis in Form eines Clips möglich. Aus diesem Clip mit Ton
         muss der Grund der Rückerstattung ersichtlich sein. Anträge auf Rückerstattungen sind nur bis zu
         72 Stunden nach einem Verlust möglich.
+         <img src="/images/secret.png" className=""/>
       </p>
     </div>
                   
@@ -789,7 +787,7 @@ export default function Home() {
                            <li>Das gesamte Gelände des LSMD.</li>
                            <li>Das Gebäude des Flughafens von Los Santos.</li>
                            <li>Das staatliche Autohaus.</li>
-                           <li>Das Gebäude des Governments</li>
+                           <li>Das Gebäude des Governments.</li>
                            <li>Das Gebäude des DOT.</li>
                            <li>Sammler, Verarbeiter und Verkäufer der legalen Routen.</li>
                            <li>Die Fahrschule von Los Santos.</li>
@@ -915,6 +913,15 @@ export default function Home() {
                           In Gefahrenzonen darf das Police Department nach einer Warnung auf Personen schießen, die unerlaubt die Gefahrenzone betreten. Es ist verboten, daraufhin das Feuer auf die Beamten zu eröffnen und sich auf Notwehr zu beziehen.
                         </ul>
                       </p>
+                  </div>
+
+                  <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+                    <h3 className="text-xl font-semibold mb-3">§9.6 Raube | Überfälle</h3>
+                      <p className="text-gray-300">
+                        <ul className="space-y mt-2">
+                          Bei Rauben/Überfällen steht weiterhin das RP im Vordergrund! Somit sind alle Beteiligten Parteien zu einer Verhandlung verpflichtet.
+                        </ul>
+                      </p> 
                   </div>
                 </div>  
               </div>
@@ -1043,12 +1050,12 @@ export default function Home() {
               </div> 
             </div>
 
-                  {/* Räube|Überfälle */}
+                  {/* Raube|Überfälle */}
                   <div className="p-8 space-y-10">
                   <div className="space-y-6">
                     <h2 className="text-3xl font-semibold flex items-center gap-3">
                       <span className="bg-white/10 px-3 py-1 rounded-lg">12</span>
-                      Räube|Überfälle
+                      Raube|Überfälle
                     </h2>
                     <div className="grid md:grid-cols-2 gap-6">
 
@@ -1071,7 +1078,7 @@ export default function Home() {
                   </div>   
 
                   <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-                    <h3 className="text-xl font-semibold mb-3">§12.3 Räube</h3>
+                    <h3 className="text-xl font-semibold mb-3">§12.3 Raube</h3>
                       <p className="text-gray-300">
                         <ul className="space-y mt-2">
                           Begonnene Raube oder Überfälle müssen ausgespielt werden. Mehrfaches Starten und Abbrechen ohne Grund führt zu einer Sanktion wegen Cop-Baiting.
