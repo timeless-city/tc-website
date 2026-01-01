@@ -64,7 +64,7 @@ export default function Home() {
                   Server-Regelwerk
                 </h1>
                 <p className="text-gray-400 mt-1">
-                  Stand: 01 Januar 2026 · Version 1.0
+                  Stand: 02. Januar 2026 · Version 1.0
                 </p>
               </div>
             </div>
