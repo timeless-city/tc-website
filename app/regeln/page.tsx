@@ -64,7 +64,7 @@ export default function Home() {
                   Server-Regelwerk
                 </h1>
                 <p className="text-gray-400 mt-1">
-                  Stand: 15 November 2025 · Version 1.0
+                  Stand: 01 Januar 2026 · Version 1.0
                 </p>
               </div>
             </div>
@@ -1554,7 +1554,7 @@ export default function Home() {
         
         <div className="container mx-auto px-4 mt-8 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-sm">
-            <div>© 2025 TimelessCity. Alle Rechte vorbehalten.</div>
+            <div>© 2026 TimelessCity. Alle Rechte vorbehalten.</div>
             <div className="flex gap-4">
               {/* <Link href="/impressum" className="hover:text-white">Impressum</Link> */}
             </div>

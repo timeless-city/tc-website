@@ -54,7 +54,7 @@ export default function AGB() {
                   <h1 className="text-4xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
                     Allgemeine Geschäftsbedingungen (AGB)
                   </h1>
-                  <p className="text-gray-400 mt-1">Stand: 22. März 2025 · Version 1.0</p>
+                  <p className="text-gray-400 mt-1">Stand: 01. Januar 2026 · Version 1.0</p>
                 </div>
               </div>
               <p className="text-gray-300">
@@ -153,7 +153,7 @@ export default function AGB() {
             <h4 className="text-white/90 font-medium mb-4">Kontakt</h4>
             <div className="space-y-2">
               <div className="text-gray-400 text-sm">
-                Support: <Link href="mailto:timelesscityinfo@gmail.com" className="hover:text-white">timelesscityinfo@gmail.com</Link>
+                Support: <Link href="mailto:timelesscityinfo@gmail.com" className="hover:text-white">verwaltung.timeless@gmail.com</Link>
               </div>
               <SocialLinks />
             </div>

@@ -54,7 +54,7 @@ export default function Impressum() {
                   <h1 className="text-4xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
                     Impressum
                   </h1>
-                  <p className="text-gray-400 mt-1">Stand: 16. September 2025</p>
+                  <p className="text-gray-400 mt-1">Stand: 01. Januar 2026</p>
                 </div>
               </div>
               <p className="text-gray-300">
@@ -69,7 +69,8 @@ export default function Impressum() {
                 <p className="text-gray-300 mt-2">
                   <strong>Name:</strong> Dario Butschko <br />
                   <strong>Email:</strong> <Link href="mailto:verwaltung.timeless@gmail.com" className="text-blue-400 hover:text-blue-300">verwaltung.timeless@gmail.com</Link> <br />
-                  <strong>Telefon:</strong> 094146186158 <br />
+                  <strong>Telefon 1:</strong> 094146186158 <br />
+                  <strong>Telefon 2:</strong> 094146163558 <br />
                   <strong>Adresse:</strong> <br />
                     c/o flexdienst – #11486 <br />
                     Kurt-Schumacher-Straße 76 <br />
@@ -200,7 +201,7 @@ export default function Impressum() {
         
         <div className="container mx-auto px-4 mt-8 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-sm">
-            <div>© 2025 TimelessCity. Alle Rechte vorbehalten.</div>
+            <div>© 2026 TimelessCity. Alle Rechte vorbehalten.</div>
           </div>
         </div>
       </footer>
