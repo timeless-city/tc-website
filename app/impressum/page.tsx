@@ -70,7 +70,6 @@ export default function Impressum() {
                   <strong>Name:</strong> Dario Butschko <br />
                   <strong>Email:</strong> <Link href="mailto:verwaltung.timeless@gmail.com" className="text-blue-400 hover:text-blue-300">verwaltung.timeless@gmail.com</Link> <br />
                   <strong>Telefon 1:</strong> 094146186158 <br />
-                  <strong>Telefon 2:</strong> 094146163558 <br />
                   <strong>Adresse:</strong> <br />
                     c/o flexdienst – #11486 <br />
                     Kurt-Schumacher-Straße 76 <br />
