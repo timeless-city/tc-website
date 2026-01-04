@@ -26,7 +26,7 @@ export default function AGB() {
                 TimelessCity
               </span>
               <span className="px-2 py-1 text-xs bg-white/10 rounded-full border border-white/10">
-                BETA
+               {/*BETA*/}
               </span>
             </div>
           </Link>

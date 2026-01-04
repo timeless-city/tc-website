@@ -26,7 +26,7 @@ export default function Impressum() {
                 TimelessCity
               </span>
               <span className="px-2 py-1 text-xs bg-white/10 rounded-full border border-white/10">
-                BETA
+              {/*BETA*/}
               </span>
             </div>
           </Link>
@@ -70,7 +70,6 @@ export default function Impressum() {
                   <strong>Name:</strong> Dario Butschko <br />
                   <strong>Email:</strong> <Link href="mailto:verwaltung.timeless@gmail.com" className="text-blue-400 hover:text-blue-300">verwaltung.timeless@gmail.com</Link> <br />
                   <strong>Telefon:</strong> 094146186158 <br />
-                  <strong>Telefon:</strong> 094146163558<br />
                   <strong>Adresse:</strong> <br />
                     c/o flexdienst – #11486 <br />
                     Kurt-Schumacher-Straße 76 <br />
