@@ -25,9 +25,9 @@ export default function Impressum() {
               <span className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
                 TimelessCity
               </span>
-              <span className="px-2 py-1 text-xs bg-white/10 rounded-full border border-white/10">
-              {/*BETA*/}
-              </span>
+              {/*<span className="px-2 py-1 text-xs bg-white/10 rounded-full border border-white/10">
+              BETA
+              </span> Auskommentiert*/}
             </div>
           </Link>
           <div className="flex items-center gap-4">
